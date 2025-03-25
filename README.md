@@ -1,67 +1,41 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/XXuF4t_c)
-## Foundry
+---
+icon: exclamation
+cover: .gitbook/assets/cover.png
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+# Rules and Policies
 
-Foundry consists of:
+This section contains all the essential rules and information about the Remedy Bug Bounty Platform.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+These guidelines ensure smooth communication, effective teamwork, and mutual success. Adhering to these rules is crucial for the best possible collaboration. We encourage you to read it fully.
 
-## Documentation
+{% content-ref url="overall/rules-and-policies/remedy-code-of-conduct.md" %}
+[remedy-code-of-conduct.md](overall/rules-and-policies/remedy-code-of-conduct.md)
+{% endcontent-ref %}
 
-https://book.getfoundry.sh/
+{% content-ref url="overall/rules-and-policies/general-terms.md" %}
+[general-terms.md](overall/rules-and-policies/general-terms.md)
+{% endcontent-ref %}
 
-## Usage
+{% content-ref url="overall/rules-and-policies/response-times.md" %}
+[response-times.md](overall/rules-and-policies/response-times.md)
+{% endcontent-ref %}
 
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+{% content-ref url="overall/rules-and-policies/defined-terminology.md" %}
+[defined-terminology.md](overall/rules-and-policies/defined-terminology.md)
+{% endcontent-ref %}
