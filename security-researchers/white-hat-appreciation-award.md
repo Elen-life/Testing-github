@@ -4,7 +4,7 @@ icon: heart
 
 # White-hat appreciation award
 
-In a bid to up the stake on its commitment to blue-ribbon security reviews, Hexens is launching a **$10,000 white-hat appreciation award** for the responsible disclosure of critical vulnerabilities discovered in bug bounty programs with assets in the same scope as those formerly audited by Hexens.
+In a bid to up the stake on its commitment to blue-ribbon security reviews, Hexens is launching a **$20,000 white-hat appreciation award** for the responsible disclosure of critical vulnerabilities discovered in bug bounty programs with assets in the same scope as those formerly audited by Hexens.
 
 ## Criteria&#x20;
 
