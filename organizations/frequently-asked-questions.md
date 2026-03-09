@@ -32,7 +32,7 @@ You can put your program on hold directly from the program page. This will remov
 
 Please contact [support@r.xyz ](mailto:support@r.xyz)or your account manager when pausing or to bringing your program back live on Remedy.
 
-**Important**: After cancellation, all previous report submissions on that program will remain active and should be reviewed based on the program version to which they were initially submitted.
+**Important**: After putting the program on hold, all previous report submissions on that program will remain active and should be reviewed based on the program version to which they were initially submitted.
 
 </details>
 
@@ -72,7 +72,11 @@ If you believe you need this access, please contact your account administrator t
 
 <summary>How does our team know when a valid bug report is submitted?</summary>
 
-When a valid report is escalated to your team on the Remedy platform, you will receive an email and a web notification.&#x20;
+When a valid report is submitted to your program, you will receive an email and a web notification.&#x20;
+
+If your program includes the Triage service, reports will be escalated to you after Hexens review. However, you are free to start the review before the escalation.
+
+If your program does not include the Triage service, reports are automatically forwarded to your team, bypassing the escalation step.
 
 The new report will also appear in the "**Pending Review**" tab on the "Reports" page.
 
@@ -82,41 +86,39 @@ The new report will also appear in the "**Pending Review**" tab on the "Reports"
 
 <summary>When should our team start reviewing the report?</summary>
 
-It is recommended that escalated reports be reviewed within 1-2 days after the Remedy triage is completed. Your team has up to 45 days to finish the report review.&#x20;
+**For programs with Triage:** It is recommended to begin review within 1-2 days after the Hexens triage is completed. Your team has up to 45 days to finish the report review.
 
-All valid reports pending your attention appear in the “**Pending Review**” tab on the “Reports” page.&#x20;
-
-You may also begin your review before the Remedy triage is completed.
-
-[Please refer to the response times.](../overall/rules-and-policies/response-times.md)
+**For programs without Triage:** Since reports are forwarded directly to your team, you are expected to work autonomously and follow the platform rules and recommended response timelines. [Please refer to the response times.](../overall/rules-and-policies/response-times.md)
 
 </details>
 
 <details>
 
-<summary>When should our team start reviewing the report?</summary>
+<summary>What is the Triage service, and is it included in our program?</summary>
 
-It is recommended that escalated reports be reviewed within 1-2 days after the Remedy triage is completed. Your team has up to 45 days to finish the report review.&#x20;
+The Hexens Triage service is an optional paid add-on. When enabled, the Hexens team reviews incoming reports before they reach your team, filtering and escalating only valid, well-documented findings.
 
-All valid reports pending your attention appear in the “**Pending Review**” tab on the “Reports” page.&#x20;
+If your program does not include the Triage service, all submitted reports are automatically forwarded directly to your team. In this case, your team is responsible for independently reviewing and managing reports in accordance with platform rules and recommended response timelines.
 
-You may also begin your review before the Remedy triage is completed.
-
-[Please refer to the response times.](../overall/rules-and-policies/response-times.md)
+For enabling or disabling triage service, please contact support@r.xyz or your account manager.&#x20;
 
 </details>
 
 <details>
 
-<summary>When should our team start reviewing the report?</summary>
+<summary>What should we do if we need help with a specific report and/or user?</summary>
 
-It is recommended that escalated reports be reviewed within 1-2 days after the Remedy triage is completed. Your team has up to 45 days to finish the report review.&#x20;
+Your team is always welcome to reach out for support on any report thread. You can contact us at [**support@r.xyz**](mailto:support@r.xyz) or reach your dedicated account manager directly.
 
-All valid reports pending your attention appear in the “**Pending Review**” tab on the “Reports” page.&#x20;
+</details>
 
-You may also begin your review before the Remedy triage is completed.
+<details>
 
-[Please refer to the response times.](../overall/rules-and-policies/response-times.md)
+<summary>What should we do if communication with a security researcher breaks down?</summary>
+
+Security researchers have the ability to submit a **"Request Remediation"** if they feel the communication on a report is not progressing appropriately. In this case, the Remedy team will step in to review the situation and help facilitate a resolution between your team and the researcher.
+
+To avoid reaching this stage, we recommend responding to reports promptly and following the platform's recommended response timelines.
 
 </details>
 
@@ -177,7 +179,6 @@ However, it is highly recommended that the researcher's effort and contribution 
 You can select the “KYC required” option when setting up your program. KYC verification can be handled in one of the following ways:
 
 1. **Integrated KYC Verification:** Security researchers on Remedy are welcome to complete a primary KYC verification. Once verified, the system will mark these researchers, so you won’t need to request KYC from them again.[ Please refer to this guideline for more details.](../overall/integrated-kyc-verification.md)
-
-1) **Self-Managed KYC:** If preferred, your company can handle the KYC procedure independently. You will manage the KYC process and ensure compliance, while Remedy can assist as needed.
+2. **Self-Managed KYC:** If preferred, your company can handle the KYC procedure independently. You will manage the KYC process and ensure compliance, while Remedy can assist as needed.
 
 </details>
