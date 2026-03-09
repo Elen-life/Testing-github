@@ -10,36 +10,50 @@ This thread serves as a central location for all discussions, updates, and inter
 
 The bug report handling process involves several steps to ensure that issues are efficiently resolved and communicated. Here's the typical flow:
 
-(Show this by visual implementation)
+{% tabs %}
+{% tab title="Program Without Triage" %}
 
-* **Bug Submitted: Status ->&#x20;**_**Bug Submitted**_\
+
+* **Bug Submitted:**  _Status -> Bug Submitted_\
   A user submits a bug report.
-* **Initial triager Assigned: Status ->&#x20;**_**Bug Submitted**_\
-  A triager is being assigned:
-* **Triager started reviewing: Status ->&#x20;**_**In progress**_\
-  Triager starts reviewing the report.
-* **Organization user assigned: Status ->&#x20;**_**In progress**_\
-  An organization user takes ownership of the report.
-* **Triager/Organization User Reviews the Report: Status ->&#x20;**_**In progress**_\
-  The assigned user thoroughly reviews the report, assessing its validity and severity.
-* **Change Severity level IF Necessary: Status ->&#x20;**_**In progress**_\
-  If the initial severity assessment needs adjustment, the user can change it.
-* **Decision: Reject/Confirm: Status ->&#x20;**_**In progress**_\
-  The user decides whether to reject or confirm the reported bug.
+* **Organization User Assigned:** _Status -> In progress_\
+  The report is automatically forwarded to the organization team and an organization user is assigned. The security researcher receives a notification.\
+  Once an organization user is assigned, the security researcher may submit a Request Remediation at any point if they feel the communication is not progressing as expected. The Remedy team will then step in to assist.
+* **Organization Reviews the Report:** _Status -> In progress_\
+  The organization user thoroughly reviews the report, assessing its validity and severity. Severity level can be adjusted at this stage if needed. Remedy can still intervene at any point if assistance is required.
+*   **Decision: Confirm or Reject** \
+    **IF CONFIRMED:** The organization announces the payout or resolves without payout.
 
-<mark style="color:green;">IF CONFIRMED:</mark>\
-After confirmation, the organization representative announces the payout or resolves the report without payout:
+    * Researcher confirms payout receipt: _Status -> In progress_
+    * If the researcher disagrees with the payout, they can click **"Reject Payout Announcement"** and provide a reason: _Status -> In progress_
+    * Report resolved: _Status -> Closed_
 
-* **Security expert confirms payout: status ->&#x20;**_**In progress**_\
-  The security expert confirms the receipt of the payout, marking the bug resolution as complete.
-* **Organization/triager resolves the report: Status ->&#x20;**_**Closed**_&#x20;
-* **Reject payout announcement: Status -> In Progress** \
-  If the security expert doesn’t agree with the announced payout amount they can reject the proposal by clicking on the “Reject payout announcement” button and providing the rejection reason.
+    **IF REJECTED:** The organization must specify a rejection reason: Spam, Duplicate, Invalid, or Other
+{% endtab %}
 
-<mark style="color:red;">IF REJECTED</mark>
+{% tab title="Program With Triage" %}
 
-If the report is rejected, the organization reprresentatives and triagers must specify the reason for rejection. Options include spam, duplicate, invalid, or other (with mandatory input of the reason).\
-**Status ->&#x20;**_**Closed**_
+
+* **Bug Submitted:** _Status -> Bug Submitted_\
+  A user submits a bug report.
+* **Triager Assigned**: _Status -> In progress_\
+  A Remedy triager is assigned to review the report.
+* **Triager Reviews the Report:** _Status -> In progress_\
+  The triager assesses the report's validity and severity.
+* **Organization User Assigned:** _Status -> In progress_\
+  The report is escalated and an organization user takes ownership.
+* **Organization Reviews the Report:** _Status -> In progress_\
+  The organization user thoroughly reviews the report. Severity level can be adjusted if needed. Remedy can intervene at any point if assistance is required.
+*   **Decision: Confirm or Reject** \
+    **IF CONFIRMED:** The organization announces the payout or resolves without payout.
+
+    * Researcher confirms payout receipt → _Status: In Progress_
+    * If the researcher disagrees with the payout, they can click **"Reject Payout Announcement"** and provide a reason → _Status: In Progress_
+    * Report resolved → _Status: Closed_
+
+    **IF REJECTED:** The organization must specify a rejection reason: Spam, Duplicate, Invalid, or Other (mandatory input) → _Status: Closed_
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 This flow ensures that bug reports are carefully reviewed, confirmed, or rejected based on their validity and severity.
@@ -57,3 +71,5 @@ Within the report thread, there are additional important aspects to consider:
   Security experts can cancel their reports until a triager or an organization user is assigned to them.
 * **Re-open;**\
   Organization users and triagers can re-open any closed report except canceled ones.
+* **Request Remediation:**\
+  &#x20;Security researchers can request Remedy's intervention at any point after an organization user is assigned, if they feel the communication is not progressing as expected.
