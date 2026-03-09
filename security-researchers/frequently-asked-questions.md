@@ -96,11 +96,40 @@ The report thread is intentionally uneditable for all users, primarily for secur
 
 <summary>How long will my report review process take?</summary>
 
-Our Terms and Conditions state that the report can take up to 14 days to be reviewed. However, our professionals do their best to review all reports immediately.&#x20;
+The review timeline depends on whether the program you submitted to includes the Triage service.
 
-Depending on the workload, the process can take anywhere from 10 minutes to 14 days. You’ll see the status of your report in the thread.&#x20;
+**Programs with Triage:** Your report will first be reviewed by the Remedy triage team. This can take anywhere from 10 minutes to 14 days, depending on workload. Once escalated to the organization, they have up to 45 days to review and close the report.
 
-Additionally, once escalated to the organization, they have up to 45  days to review and close the report. Our team actively works to ensure that your report receives a prompt response.
+**Programs without Triage:** Your report is forwarded directly to the organization. You will receive a notification once an organization user is assigned to your report. The recommended response time is 1–5 days, though organizations have up to 45 days as per Remedy's T\&C.
+
+You can track the status of your report at any time in the report thread.
+
+</details>
+
+<details>
+
+<summary>My report has not been reviewed for a long time, what should I do?</summary>
+
+The Remedy team actively monitors all report threads and continuously sends notifications to organizations with pending reports, so rest assured your submission is not being overlooked.
+
+If your report has been pending for more than **15 days**, we recommend:
+
+* Opening a support ticket in the **#Help** channel on our **Discord server**
+* Or reaching out directly at [**support@r.xyz**](mailto:support@r.xyz)
+
+Join Discord here: [https://discord.com/invite/remedy](https://discord.com/invite/remedy)
+
+</details>
+
+<details>
+
+<summary>What should I do if communication with the organization breaks down?</summary>
+
+If communication on your report is not progressing as expected, you can submit a **Request Remediation** directly from the report thread. This will alert the Remedy team, who will step in to review the situation and help facilitate a fair resolution between you and the organization.
+
+We recommend using this feature before reaching out to support, as it keeps all context within the report thread and allows our team to act faster.
+
+Additionally, we highly recommend being very mindful while using this feature. Misuse or abuse of this functionality will lead to the ban of your account.
 
 </details>
 
@@ -109,9 +138,7 @@ Additionally, once escalated to the organization, they have up to 45  days to re
 <summary>System limitations</summary>
 
 * The system limits bug submissions to a maximum of 10 per user daily. After the 10th submission, the action button will be disabled. You can still edit draft reports and create new ones but cannot submit them.
-
-- If your bug report is marked as SPAM three times in 72 hours, your participation in programs will be limited for the next 72 hours.
-
+* If your bug report is marked as SPAM three times in 72 hours, your participation in programs will be limited for the next 72 hours.
 * The system limits report cancellation to a max of 3 times per 72 hours.\
   If the user cancels for the 4th time within 72 hours, the system limits your participation in programs for the next 72 hours.
 
