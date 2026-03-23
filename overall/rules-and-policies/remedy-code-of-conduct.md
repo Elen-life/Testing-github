@@ -6,20 +6,6 @@ description: >-
 icon: stamp
 cover: ../../.gitbook/assets/2.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Remedy Code Of Conduct
@@ -123,6 +109,30 @@ NOTE: A breach of this section will most probably lead to criminal prosecution.&
 
 </details>
 
+<details>
+
+<summary>1.9 Spamming</summary>
+
+Spam includes any report or communication that is incomprehensible, AI-generated without meaningful human review, abusive, or harassment-based in nature. This also covers any attempt to use the platform to promote, advertise, or sell products or services.
+
+</details>
+
+<details>
+
+<summary>1.10 Irresponsible Use of Remediation Requests</summary>
+
+The Remediation Request feature is available on reports submitted to non-triaged programs. It allows researchers to escalate to the Remedy team when communication with the organization is not progressing as expected. This function can only be used once per report and is intended solely as a last resort for resolving genuine communication breakdowns.
+
+Irresponsible use includes, but is not limited to:
+
+* Submitting a remediation request without a legitimate reason or prior attempt to resolve the issue directly with the organization
+* Using the feature as a routine follow-up tool rather than a last-resort escalation
+* Submitting a remediation request to pressure or fast-track a response outside of normal program timelines
+* Exploiting the feature to repeatedly involve the Remedy team in disputes that do not warrant escalation
+
+</details>
+
 ### 2. Enforcement Measures
 
-<table><thead><tr><th data-type="number">Point #</th><th width="213">Incident</th><th width="137">1st violation</th><th width="137">2nd violation</th><th width="141">3rd violation</th><th width="152">4th violation</th><th width="136">5th violation</th></tr></thead><tbody><tr><td>2.1</td><td><strong>Unethical Behavior</strong></td><td>Educational</td><td>1st Warning</td><td>Final Warning</td><td>Temporary ban (1 month)</td><td>Permanent ban</td></tr><tr><td>2.2</td><td><strong>Abusive Behavior/Harassment</strong></td><td>Final Warning</td><td>Temporary ban (1 month)</td><td>Permanent ban</td><td></td><td></td></tr><tr><td>2.3</td><td><strong>Unsafe Testing/Service Degradation</strong></td><td>1st Warning</td><td>Final Warning</td><td>Temporary ban (1 month)</td><td>Permanent ban</td><td></td></tr><tr><td>2.4</td><td><strong>Irresponsible disclosure</strong></td><td>Temporary ban (1 month)</td><td>Permanent ban</td><td></td><td></td><td></td></tr><tr><td>2.5</td><td><strong>Communicating with the Program Team Outside Of The Platform</strong></td><td>Educational</td><td>Final Warning</td><td>Temporary ban (1 month)</td><td>Permanent ban</td><td></td></tr><tr><td>2.6</td><td><strong>Theft of Intellectual Property</strong></td><td>Temporary ban (1 month)</td><td>Permanent ban</td><td></td><td></td><td></td></tr><tr><td>2.7</td><td><strong>Social Engineering</strong></td><td>Permanent ban</td><td></td><td></td><td></td><td></td></tr><tr><td>2.8</td><td><strong>Extortion/Blackmail</strong></td><td>Permanent ban</td><td></td><td></td><td></td><td></td></tr><tr><td>2.9</td><td><strong>Spamming</strong></td><td>Educational</td><td>1st Warning</td><td>Final Warning</td><td>Temporary ban (1 month)</td><td>Permanent ban</td></tr></tbody></table>
+<table><thead><tr><th data-type="number">Point #</th><th width="213">Incident</th><th width="137">1st violation</th><th width="137">2nd violation</th><th width="141">3rd violation</th><th width="152">4th violation</th><th width="136">5th violation</th></tr></thead><tbody><tr><td>2.1</td><td><strong>Unethical Behavior</strong></td><td>Educational</td><td>1st Warning</td><td>Final Warning</td><td>Temporary ban (1 month)</td><td>Permanent ban</td></tr><tr><td>2.2</td><td><strong>Abusive Behavior/Harassment</strong></td><td>Final Warning</td><td>Temporary ban (1 month)</td><td>Permanent ban</td><td></td><td></td></tr><tr><td>2.3</td><td><strong>Unsafe Testing/Service Degradation</strong></td><td>1st Warning</td><td>Final Warning</td><td>Temporary ban (1 month)</td><td>Permanent ban</td><td></td></tr><tr><td>2.4</td><td><strong>Irresponsible disclosure</strong></td><td>Temporary ban (1 month)</td><td>Permanent ban</td><td></td><td></td><td></td></tr><tr><td>2.5</td><td><strong>Communicating with the Program Team Outside Of The Platform</strong></td><td>Educational</td><td>Final Warning</td><td>Temporary ban (1 month)</td><td>Permanent ban</td><td></td></tr><tr><td>2.6</td><td><strong>Theft of Intellectual Property</strong></td><td>Temporary ban (1 month)</td><td>Permanent ban</td><td></td><td></td><td></td></tr><tr><td>2.7</td><td><strong>Social Engineering</strong></td><td>Permanent ban</td><td></td><td></td><td></td><td></td></tr><tr><td>2.8</td><td><strong>Extortion/Blackmail</strong></td><td>Permanent ban</td><td></td><td></td><td></td><td></td></tr><tr><td>2.9</td><td><strong>Spamming</strong></td><td>Educational</td><td>1st Warning</td><td>Final Warning</td><td>Temporary ban (1 month)</td><td>Permanent ban</td></tr><tr><td>2.1</td><td><strong>Irresponsible Use of Remediation Requests</strong></td><td>1st Warning</td><td>Final Warning</td><td>Temporary ban (1 month)</td><td>Permanent ban</td><td></td></tr></tbody></table>
+
